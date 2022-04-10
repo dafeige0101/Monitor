@@ -20,7 +20,7 @@ mitm
 cron "40 11 * * *" script-path=jd_zdjr.js,tag=组队瓜分京豆
 
 */
-const $ = new Env('组队瓜分京豆');
+const $ = new Env('组队瓜分京豆-加密');
 let jd_zdjr_activityId = ''// 活动ID
 let jd_zdjr_activityUrl = ''// 活动地址
 
