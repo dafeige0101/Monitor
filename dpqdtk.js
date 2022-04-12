@@ -16,7 +16,7 @@ if (process.env.DPQDTK) {
 }
 if (!token.length) {
   console.log('无店铺签到token,不执行.需自备token:环境变DPQDTK: tk1&tk2.')
-  return
+  // return
 }
 const $ = new Env('店铺签到');
 const notify = $.isNode() ? require('./sendNotify') : '';
