@@ -3,7 +3,7 @@ https://lzkj-isv.isvjcloud.com/wxgame/activity/8530275?activityId=e5cff304b4b545
 爆裂豆豆游戏
 活动ID环境变量 WXGAME_ACT_ID
 */
-const $ = new Env('通用游戏任务');
+const $ = new Env('豆豆通用任务-落幕');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = '', message = '';
