@@ -1,5 +1,5 @@
 let mode = __dirname.includes('magic')
-const {Env} = mode ? require('../magic') : require('./magic')
+const {Env} = mode ? require('./utils/magic.js') : require('./utils/magic.js')
 const $ = new Env('M加购有礼');
 $.lz = 'LZ_TOKEN_KEY=lztokef1eb8494b0af868bd18bdaf8;LZ_TOKEN_VALUE=Aa5RE8RuY4X3zA==;';
 $.activityUrl = process.env.M_WX_ADD_CART_URL
