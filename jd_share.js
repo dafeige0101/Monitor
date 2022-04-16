@@ -17,7 +17,7 @@ cron:1 1 1 1 *
 1 1 1 1 * jd_share.js, tag=LZ分享有礼, enabled=true
 
 */
-const $ = new Env("LZ分享有礼");
+const $ = new Env("LZ分享有礼-落幕");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = '', message = '';
