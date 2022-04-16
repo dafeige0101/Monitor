@@ -14,7 +14,7 @@ cron "0 * * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main
 ===============小火箭==========
 整点京豆雨 = type=cron,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_redrain.js, cronexpr="0 * * * *", timeout=3600, enable=true
 */
-const $ = new Env('整点京豆雨');
+const $ = new Env('整点京豆雨-落幕');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
