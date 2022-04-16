@@ -1,6 +1,6 @@
 let mode = __dirname.includes('magic')
 const {Env} = mode ? require('./utils/magic.js') : require('./utils/magic.js')
-const $ = new Env('M幸运抽奖');
+const $ = new Env('M幸运抽奖-落幕');
 $.activityUrl = process.env.M_WX_LUCK_DRAW_URL
     ? process.env.M_WX_LUCK_DRAW_URL
     : '';
