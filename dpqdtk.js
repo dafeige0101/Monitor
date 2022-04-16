@@ -18,7 +18,7 @@ if (!token.length) {
   console.log('无店铺签到token,不执行.需自备token:环境变DPQDTK: tk1&tk2.')
   // return
 }
-const $ = new Env('店铺签到');
+const $ = new Env('店铺签到-落幕');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
